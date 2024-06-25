@@ -5,10 +5,16 @@
 }
 
 .icon {
-	fill: transparent;
-	stroke: transparent;
-	width: 62px;
-	height: 62px;
+	// fill: transparent;
+	// stroke: transparent;
+	width: 61px;
+	height: 61px;
+	&.icon--logo {
+		width: 414px;
+		height: 30px;
+		fill: var(--efbd68);
+		// justify-self: center;
+	}
 }
 
 .icon--heart-line {

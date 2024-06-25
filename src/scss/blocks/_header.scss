@@ -1,11 +1,14 @@
 .header {
-	background-color: #c0e4f4;
-	padding: 50px 0;
+	background-color: #ffff;
+	padding-top: 47px;
 
 	&__row {
-		display: flex;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
 		align-items: center;
+		a {
+			justify-self: center;
+		}
 	}
 }
 
