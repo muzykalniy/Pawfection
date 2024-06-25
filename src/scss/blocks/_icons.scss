@@ -37,28 +37,44 @@
 		width: 39px;
 		height: 65px;
 	}
-}
-
-.icon--heart-line {
-	fill: rgb(241, 68, 131);
-}
-
-.icon--id-card-line {
-	fill: rgb(51, 51, 51);
-}
-.icon--search-line {
-	fill: rgb(28, 176, 80);
-}
-
-.icon--user-star {
-	fill: rgb(26, 134, 235);
-}
-
-.icon--user {
-	stroke: rgb(26, 134, 235);
-	transition: all 0.2s ease-in;
-
-	&:hover {
-		stroke: rgb(17, 193, 90);
+	&.icon--about__1 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 45px;
+		height: 75px;
+		left: -70px;
+		top: 350px;
+	}
+	&.icon--about__2 {
+		position: absolute;
+		fill: var(--333333);
+		width: 52.23px;
+		height: 64.18px;
+		right: -20px;
+		top: 0px;
 	}
 }
+
+// .icon--heart-line {
+// 	fill: rgb(241, 68, 131);
+// }
+
+// .icon--id-card-line {
+// 	fill: rgb(51, 51, 51);
+// }
+// .icon--search-line {
+// 	fill: rgb(28, 176, 80);
+// }
+
+// .icon--user-star {
+// 	fill: rgb(26, 134, 235);
+// }
+
+// .icon--user {
+// 	stroke: rgb(26, 134, 235);
+// 	transition: all 0.2s ease-in;
+
+// 	&:hover {
+// 		stroke: rgb(17, 193, 90);
+// 	}
+// }

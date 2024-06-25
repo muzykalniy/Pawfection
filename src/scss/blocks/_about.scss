@@ -7,7 +7,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 160px;
 }
 .about__wrapper {
     padding: 10px 0 160px;
@@ -37,7 +36,9 @@
     line-height: 200%;
     color: var(--333333);
 }
-
+.about__img-wrapper {
+    position: relative;
+}
 .about__img {
     border-radius: 300px;
     transition: all 0.2s ease-in;
