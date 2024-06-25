@@ -53,28 +53,62 @@
 		right: -20px;
 		top: 0px;
 	}
+
+	// Grid
+	&.icon--grid__1 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 45px;
+		height: 75px;
+		left: 170px;
+		top: 50px;
+	}
+	&.icon--grid__2 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 45px;
+		height: 75px;
+		left: 130px;
+		bottom: 250px;
+	}
+	&.icon--grid__3 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 38px;
+		height: 44px;
+		left: 180px;
+		bottom: 200px;
+	}
+	&.icon--grid__4 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 38px;
+		height: 44px;
+		right: 600px;
+		top: 150px;
+	}
+	&.icon--grid__5 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 38px;
+		height: 44px;
+		right: 600px;
+		bottom: 250px;
+	}
+	&.icon--grid__6 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 38px;
+		height: 44px;
+		right: 230px;
+		top: 110px;
+	}
+	&.icon--grid__7 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 38px;
+		height: 44px;
+		right: 220px;
+		bottom: 290px;
+	}
 }
-
-// .icon--heart-line {
-// 	fill: rgb(241, 68, 131);
-// }
-
-// .icon--id-card-line {
-// 	fill: rgb(51, 51, 51);
-// }
-// .icon--search-line {
-// 	fill: rgb(28, 176, 80);
-// }
-
-// .icon--user-star {
-// 	fill: rgb(26, 134, 235);
-// }
-
-// .icon--user {
-// 	stroke: rgb(26, 134, 235);
-// 	transition: all 0.2s ease-in;
-
-// 	&:hover {
-// 		stroke: rgb(17, 193, 90);
-// 	}
-// }
