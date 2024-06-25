@@ -15,6 +15,12 @@
 		fill: var(--efbd68);
 		// justify-self: center;
 	}
+	&.icon--circle {
+		width: 7px;
+		height: 7px;
+		border-radius: 100%;
+		fill: var(--333333);
+	}
 }
 
 .icon--heart-line {

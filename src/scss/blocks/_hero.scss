@@ -1,0 +1,96 @@
+.hero {
+    padding: 334px 0 92px;
+
+    .container {
+        width: 100%;
+    }
+    .hero__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero__top-wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: end;
+        justify-items: start;
+        &::before {
+            content: "";
+
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 10px;
+            height: 10px;
+
+            background-image: url("./../../img/svgicons/star-small.svg");
+            background-repeat: no-repeat;
+        }
+    }
+    .hero__col {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        padding-bottom: 210px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 200%;
+        color: var(--333333);
+
+        &.scroll-text__bullet-right::before {
+            content: "";
+            width: 7px;
+            height: 7px;
+            display: block;
+            background-color: #333;
+            border-radius: 100%;
+            fill: var(--333333);
+        }
+        &.scroll-text__bullet-left::after {
+            content: "";
+            width: 7px;
+            height: 7px;
+            display: block;
+            background-color: #333;
+            border-radius: 100%;
+            fill: var(--333333);
+        }
+        &.hero__col--left {
+            justify-self: end;
+        }
+    }
+}
+
+.visually-hidden {
+    display: none;
+}
+.hero__round-text {
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.hero__img-wrapper {
+    width: 910.54px;
+    height: 912px;
+
+    .hero__img {
+        width: 100%;
+        height: 100%;
+        object-fit: none;
+    }
+}
+.hero__content {
+    max-width: 829px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: center;
+    color: var(--333333);
+}
