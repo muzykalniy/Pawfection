@@ -21,6 +21,22 @@
 		border-radius: 100%;
 		fill: var(--333333);
 	}
+	&.icon--star__big {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 45px;
+		height: 75px;
+		top: 500px;
+		left: 70px;
+	}
+	&.icon--star__small {
+		position: absolute;
+		fill: var(--efbd68);
+		top: 100px;
+		left: 750px;
+		width: 39px;
+		height: 65px;
+	}
 }
 
 .icon--heart-line {
