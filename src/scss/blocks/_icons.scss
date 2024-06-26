@@ -111,4 +111,38 @@
 		right: 220px;
 		bottom: 290px;
 	}
+
+	// Service
+	&.icon--service__1 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 62px;
+		height: 71px;
+		left: -110px;
+		bottom: 0px;
+	}
+	&.icon--service__2 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 61px;
+		height: 51px;
+		left: 180px;
+		top: 400px;
+	}
+	&.icon--service__3 {
+		position: absolute;
+		fill: var(--efbd68);
+		width: 45px;
+		height: 75px;
+		left: 400px;
+		top: 0px;
+	}
+	&.icon--service__4 {
+		position: absolute;
+		fill: var(--333333);
+		width: 79.93px;
+		height: 120.35px;
+		right: 50px;
+		bottom: 0px;
+	}
 }

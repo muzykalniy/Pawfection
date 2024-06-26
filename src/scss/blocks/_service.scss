@@ -63,3 +63,28 @@
         background-size: contain;
     }
 }
+
+.service__collection-wrapper {
+    position: relative;
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    .service__collection-img {
+        justify-self: start;
+        align-self: end;
+
+        img {
+            height: auto; /* Поддерживаем соотношение сторон */
+            object-fit: cover; /* Изображение вписывается в контейнер, сохраняя соотношение сторон */
+            border-radius: 600px;
+            transition: all 0.2s ease-in;
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+        .service__collection-item-1 {
+            height: 348.67px;
+        }
+    }
+}
