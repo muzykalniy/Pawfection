@@ -1,0 +1,45 @@
+.section__swiper {
+}
+
+.swiper {
+}
+.mySwiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.swiper__img {
+    margin-bottom: 46px;
+}
+.swiper__content {
+    max-width: 1097px;
+    margin-bottom: 26px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: center;
+    color: var(--333333);
+}
+.swiper__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 125%;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--333333);
+}
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--efbd68) !important;
+    padding: 0px 100px 0px;
+    &.active {
+        color: var(--333333) !important;
+    }
+}
