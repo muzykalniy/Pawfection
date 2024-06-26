@@ -1,8 +1,8 @@
 .footer {
-	background-color: rgb(39, 39, 39);
-	padding: 50px 0;
+	background: var(--efbd68);
+	padding: 75px 0 100px;
 	font-size: 32px;
-    color: #fff;
+	color: #fff;
 
 	h1 {
 		font-size: 32px;
@@ -22,5 +22,41 @@
 .footer__copyright {
 	padding: 10px 0;
 	font-size: 16px;
+}
 
+.footer__header-wrapper {
+	padding-bottom: 40px;
+	border-bottom: 1px solid var(--333333);
+	display: flex;
+
+	.icon--logo {
+		fill: var(--333333) !important;
+	}
+}
+
+.footer__nav {
+	.nav {
+	}
+	.nav__list {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.footer__nav-title {
+}
+
+.footer__contact-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.footer__contact-title {
+}
+.footer__bottom-wrapper {
+}
+.footer__copyright {
+}
+.footer__terms {
+}
+.footer__privacy {
 }
