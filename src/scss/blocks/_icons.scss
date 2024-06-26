@@ -7,8 +7,45 @@
 .icon {
 	// fill: transparent;
 	// stroke: transparent;
-	width: 61px;
-	height: 61px;
+
+	animation: color-change 6s infinite;
+	@keyframes color-change {
+		0% {
+			fill: var(--efbd68);
+		}
+		25% {
+			fill: darkorange;
+		}
+		50% {
+			fill: darkslategrey;
+		}
+		75% {
+			fill: var(--333333);
+		}
+		100% {
+			fill: coral;
+		}
+	}
+	&.icon--animation {
+		animation: color-change 2s infinite;
+		@keyframes color-change {
+			0% {
+				fill: var(--efbd68);
+			}
+			25% {
+				fill: darkorange;
+			}
+			50% {
+				fill: darkslategrey;
+			}
+			75% {
+				fill: var(--333333);
+			}
+			100% {
+				fill: coral;
+			}
+		}
+	}
 	&.icon--logo {
 		width: 414px;
 		height: 30px;

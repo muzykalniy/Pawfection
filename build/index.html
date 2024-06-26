@@ -20,7 +20,7 @@
 							<li><a href="#!" target="_blank">Contact</a></li>
 						</ul>
 					</nav>
-					<a href="logo__wrapper">
+					<a class="logo__wrapper" href="#!">
 						<svg class="icon icon--logo">
 							<use href="./img/svgsprite/sprite.symbol.svg#logo"></use></svg
 					></a>
@@ -54,14 +54,14 @@
 							<div class="hero__col scroll-text__bullet-right">Scroll to&#160;discover</div>
 
 							<div class="hero__img-wrapper">
-								<svg class="icon icon--star__big">
+								<svg class="icon icon--animation icon--star__big">
 									<use href="./img/svgsprite/sprite.symbol.svg#star-big"></use></svg
 								><picture>
 									<source srcset="./img/hero/hero-img.webp 1x, ./img/hero/hero-img@2x.webp 2x" type="image/webp" />
 									<source srcset="./img/hero/hero-img.png 1x, ./img/hero/hero-img@2x.png 2x" type="image/png" />
 									<img class="hero__img" src="./img/hero/hero-img.png" srcset="./img/hero/hero-img.png" alt="Alt" />
 								</picture>
-								<svg class="icon icon--star__small">
+								<svg class="icon  icon--star__small">
 									<use href="./img/svgsprite/sprite.symbol.svg#star-small"></use>
 								</svg>
 							</div>
@@ -88,7 +88,7 @@
 							<button class="btn about__btn">Discover</button>
 						</div>
 						<div class="about__img-wrapper">
-							<svg class="icon icon--about__1">
+							<svg class="icon icon--animation icon--about__1">
 								<use href="./img/svgsprite/sprite.symbol.svg#star-small"></use>
 							</svg>
 							<img class="about__img" src="./img/about us/abt-1.png" srcset="./img/about us/abt-1.png" alt="Alt" />
@@ -139,7 +139,7 @@
 							</svg>
 						</div>
 						<div class="grid-item">
-							<svg class="icon icon--grid__2">
+							<svg class="icon icon--animation icon--grid__2">
 								<use href="./img/svgsprite/sprite.symbol.svg#bubble"></use>
 							</svg>
 							<picture>
@@ -155,7 +155,7 @@
 							</picture>
 						</div>
 						<div class="grid-item">
-							<svg class="icon icon--grid__3">
+							<svg class="icon  icon--grid__3">
 								<use href="./img/svgsprite/sprite.symbol.svg#star"></use>
 							</svg>
 							<picture>
@@ -213,7 +213,7 @@
 							</picture>
 						</div>
 						<div class="grid-item">
-							<svg class="icon icon--grid__4">
+							<svg class="icon icon--animation icon--grid__4">
 								<use href="./img/svgsprite/sprite.symbol.svg#star"></use>
 							</svg>
 							<picture>
@@ -260,7 +260,7 @@
 							</picture>
 						</div>
 						<div class="grid-item">
-							<svg class="icon icon--grid__6">
+							<svg class="icon icon--animation icon--grid__6">
 								<use href="./img/svgsprite/sprite.symbol.svg#bubble"></use>
 							</svg>
 							<img src="./img/collection/front-view-cute-smiley-dog 1.png" alt="Alt" />
@@ -308,7 +308,7 @@
 									alt="Alt"
 								/>
 							</picture>
-							<svg class="icon icon--service__2">
+							<svg class="icon icon--animation icon--service__2">
 								<use href="./img/svgsprite/sprite.symbol.svg#bubble"></use>
 							</svg>
 						</div>
@@ -338,7 +338,7 @@
 									alt="Alt"
 								/>
 							</picture>
-							<svg class="icon icon--service__4">
+							<svg class="icon icon--animation icon--service__4">
 								<use href="./img/svgsprite/sprite.symbol.svg#conf"></use>
 							</svg>
 						</div>
@@ -431,7 +431,7 @@
 								alt="Alt"
 							/>
 						</div>
-						<svg class="icon icon--collection-bottom__2">
+						<svg class="icon icon--animation icon--collection-bottom__2">
 							<use href="./img/svgsprite/sprite.symbol.svg#star"></use>
 						</svg>
 					</div>
@@ -441,24 +441,33 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__header-wrapper">
-					<a href="logo__wrapper">
+					<a class="logo__wrapper" href="#!">
 						<svg class="icon icon--logo">
 							<use href="./img/svgsprite/sprite.symbol.svg#logo"></use></svg
 					></a>
-					<div class="footer__nav nav">
-						<h3 class="footer__nav-title">Menu</h3>
-						<ul class="nav__list">
-							<li><a href="#!" class="active">Home</a></li>
-							<li><a href="#!">About</a></li>
-							<li><a href="#!">Services</a></li>
-							<li><a href="#!">Contact</a></li>
-						</ul>
-					</div>
-					<div class="footer__contact-wrapper">
-						<h3 class="footer__contact-title">Contact</h3>
-						<p>Pawfections@contact.com</p>
-						<p>+012-345-6789</p>
-						<p>9889 Lorem Ipsum street, Pellentesque, CA, USA</p>
+					<div class="footer__header-nav--wrapper">
+						<div class="footer__nav nav">
+							<h3 class="footer__nav-title">Menu</h3>
+							<ul class="nav__list">
+								<li><a href="#!" class="active">Home</a></li>
+								<li><a href="#!">About</a></li>
+								<li><a href="#!">Services</a></li>
+								<li><a href="#!">Contact</a></li>
+							</ul>
+						</div>
+						<div class="footer__contact-wrapper">
+							<h3 class="footer__contact-title">Contact</h3>
+							<ul class="footer__list-contact">
+								<li><a href="mailto:Pawfections@contact.com">Pawfections@contact.com</a></li>
+								<li><a href="tel:+012-345-6789">+012-345-6789</a></li>
+								<li>
+									<a href="#!"
+										>9889 Lorem Ipsum street, <br />
+										Pellentesque, CA, USA</a
+									>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="footer__bottom-wrapper">

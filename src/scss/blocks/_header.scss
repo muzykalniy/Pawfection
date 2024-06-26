@@ -1,7 +1,9 @@
 .header {
 	background-color: #ffff;
 	padding-top: 47px;
-
+	.icon {
+		animation: none;
+	}
 	&__row {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
