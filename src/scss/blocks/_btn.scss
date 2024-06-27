@@ -22,6 +22,11 @@
     transition:
         filter 0.2s ease-in,
         color 0.2s ease-in;
+    @include mobile {
+        padding: 11px 21px;
+        width: 120px;
+        height: 40px;
+    }
 }
 
 .btn:hover,

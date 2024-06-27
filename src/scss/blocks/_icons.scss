@@ -65,6 +65,12 @@
 		height: 75px;
 		top: 500px;
 		left: 70px;
+		@include mobile {
+			width: 22.09px;
+			height: 36.08px;
+			top: 130px;
+			left: 15px;
+		}
 	}
 	&.icon--star__small {
 		position: absolute;
@@ -73,6 +79,13 @@
 		left: 750px;
 		width: 39px;
 		height: 65px;
+		@include mobile {
+			width: 22.09px;
+			height: 36.08px;
+			top: 130px;
+			right: 25px;
+			left: unset;
+		}
 	}
 	&.icon--about__1 {
 		position: absolute;
