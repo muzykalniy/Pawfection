@@ -280,6 +280,12 @@
 		height: 68px;
 		left: 20px;
 		top: 0px;
+		@include mobile {
+			width: 8px;
+			height: 13px;
+			left: -10px;
+			top: 0px;
+		}
 	}
 	&.icon--collection-bottom__2 {
 		position: absolute;
@@ -288,5 +294,11 @@
 		height: 71px;
 		right: 50px;
 		bottom: 0px;
+		@include mobile {
+			width: 9px;
+			height: 11px;
+			right: -10px;
+			bottom: 0px;
+		}
 	}
 }

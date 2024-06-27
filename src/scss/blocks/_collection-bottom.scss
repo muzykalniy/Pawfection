@@ -1,5 +1,8 @@
 .collection__bottom {
     padding: 120px 0;
+    @include mobile {
+        padding: 60px 0;
+    }
 }
 
 .collection__bottom-grid {
@@ -8,8 +11,14 @@
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     column-gap: 40px;
-
     padding: 0px 90px;
+    @include mobile {
+        display: flex;
+        justify-content: space-between;
+        gap: 9px;
+        column-gap: unset;
+        padding: unset;
+    }
 }
 .collection__bottom-img img {
     border-radius: 200px;
