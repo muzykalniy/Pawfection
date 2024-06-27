@@ -58,6 +58,9 @@
 		display: flex;
 		justify-content: space-between;
 		gap: 334px;
+		@include laptop {
+			gap: 124px;
+		}
 	}
 	.footer__nav {
 		// margin-left: auto;

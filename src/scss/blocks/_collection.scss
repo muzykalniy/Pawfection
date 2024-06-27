@@ -40,6 +40,9 @@
         align-self: center;
         justify-self: center;
         height: 100%;
+        @include laptop {
+            padding-top: 15px;
+        }
     }
     & > :nth-child(4) {
         grid-row: 1 / 2;

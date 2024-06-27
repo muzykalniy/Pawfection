@@ -12,7 +12,13 @@
 		"body": ["console.log('$1');", "$2"],
 		"description": "Log output to console"
 	},
-
+/* Media Laptop */
+"mediaLaptop": {
+	"scope": "css,scss",
+	"prefix": "laptop",
+	"body": ["@include laptop {", "    ${1}", "}"],
+	"description": "laptop"
+},
 	/* Media Tablet */
 	"mediaTablet": {
 		"scope": "css,scss",

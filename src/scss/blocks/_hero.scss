@@ -29,6 +29,9 @@
         font-size: 20px;
         line-height: 200%;
         color: var(--333333);
+        @include laptop {
+            padding-bottom: 320px;
+        }
 
         &.scroll-text__bullet-right::before {
             content: "";
@@ -60,13 +63,21 @@
 .hero__round-text {
     position: absolute;
     top: 170px;
-    left: 0px;
+    left: 55px;
+    @include laptop {
+        top: 170px;
+        left: 0px;
+    }
 }
 .hero__img-wrapper {
+    margin-top: 100px;
     position: relative;
     width: 910.54px;
     height: 912px;
     transition: all 0.2s ease-in;
+    @include laptop {
+        margin-top: 0px;
+    }
     &:hover {
         transform: scale(1.03);
         filter: saturate(130%);
