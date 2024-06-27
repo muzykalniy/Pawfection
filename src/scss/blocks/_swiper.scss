@@ -6,6 +6,9 @@
 .mySwiper {
 }
 .swiper-wrapper {
+    @include mobile {
+        padding-bottom: 26px;
+    }
 }
 .swiper-slide {
     display: flex !important;
@@ -15,6 +18,9 @@
 }
 .swiper__img {
     margin-bottom: 46px;
+    @include mobile {
+        margin-bottom: 16px;
+    }
 }
 .swiper__content {
     max-width: 1097px;
@@ -25,6 +31,11 @@
     line-height: 200%;
     text-align: center;
     color: var(--333333);
+    @include mobile {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 186%;
+    }
 }
 .swiper__title {
     font-family: var(--font-family);
@@ -34,12 +45,38 @@
     text-transform: capitalize;
     text-align: center;
     color: var(--333333);
+    @include mobile {
+        font-size: 16px;
+        line-height: 162%;
+        text-transform: capitalize;
+    }
 }
 .swiper-button-prev,
 .swiper-button-next {
     color: var(--efbd68) !important;
     padding: 0px 100px 0px;
+    @include mobile {
+        display: none !important;
+    }
     &.active {
         color: var(--333333) !important;
     }
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: var(--333333); /* Фон для обычных кругов */
+}
+
+.swiper-pagination-bullet {
+    width: 14px !important;
+    height: 14px !important;
+    opacity: 1 !important; /* Отменяем opacity, чтобы все кружки были одинакового цвета */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--efbd68) !important; /* Задаем свойства для активного круга */
 }

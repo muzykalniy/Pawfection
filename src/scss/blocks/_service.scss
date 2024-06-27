@@ -114,6 +114,11 @@
     margin-top: 47px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    @include mobile {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
 
     .service__collection-img {
         justify-self: start;
@@ -124,12 +129,17 @@
             object-fit: cover; /* Изображение вписывается в контейнер, сохраняя соотношение сторон */
             border-radius: 600px;
             transition: all 0.2s ease-in;
+            @include mobile {
+            }
             &:hover {
                 transform: scale(1.02);
             }
         }
         .service__collection-item-1 {
             height: 348.67px;
+            @include mobile {
+                height: unset;
+            }
         }
     }
 }

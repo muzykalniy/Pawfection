@@ -51,7 +51,7 @@
         justify-self: center;
         height: 100%;
         @include laptop {
-            padding-top: 15px;
+            padding-top: 5px;
         }
     }
     & > :nth-child(4) {

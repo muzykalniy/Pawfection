@@ -224,6 +224,12 @@
 		height: 71px;
 		left: -110px;
 		bottom: 0px;
+		@include mobile {
+			width: 9px;
+			height: 18px;
+			left: -20px;
+			bottom: 0px;
+		}
 	}
 	&.icon--service__2 {
 		position: absolute;
@@ -232,6 +238,12 @@
 		height: 51px;
 		left: 200px;
 		top: 150px;
+		@include mobile {
+			width: 9px;
+			height: 18px;
+			left: 50px;
+			top: 25px;
+		}
 	}
 	&.icon--service__3 {
 		position: absolute;
@@ -240,6 +252,12 @@
 		height: 75px;
 		left: 400px;
 		top: 0px;
+		@include mobile {
+			width: 10px;
+			height: 15px;
+			left: 80px;
+			top: 0px;
+		}
 	}
 	&.icon--service__4 {
 		position: absolute;
@@ -248,6 +266,12 @@
 		height: 120.35px;
 		right: 0px;
 		bottom: 0px;
+		@include mobile {
+			width: 19px;
+			height: 21px;
+			right: -15px;
+			bottom: 0px;
+		}
 	}
 	&.icon--collection-bottom__1 {
 		position: absolute;
