@@ -33,7 +33,7 @@ var swiper = new Swiper(".mySwiper", {
 
 // Функция для обновления конфигурации Swiper при изменении размера экрана
 function updateSwiper() {
-  if (window.innerWidth < 321) {
+  if (window.innerWidth < 481) {
     swiper.pagination.enable();
     swiper.navigation.disable();
   } else {

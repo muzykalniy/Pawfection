@@ -37,10 +37,6 @@
         justify-self: center;
 
         height: 100%;
-        @include mobile {
-            width: 49px;
-            height: 66px;
-        }
     }
     & > :nth-child(3) {
         padding-top: 30px;
