@@ -6,10 +6,9 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 314px;
 }
 .service__content-wrapper {
-    flex-basis: 50%;
+    flex-basis: 85%;
 }
 .service__title {
     margin-bottom: 27px;
@@ -30,7 +29,7 @@
 }
 
 .service__list-wrapper {
-    flex-basis: 50%;
+    flex-basis: 30%;
 }
 .service__list-title {
     font-family: var(--second-family);
@@ -68,7 +67,7 @@
     position: relative;
     margin-top: 47px;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 1fr 2fr;
 
     .service__collection-img {
         justify-self: start;
