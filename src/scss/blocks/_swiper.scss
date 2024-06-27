@@ -32,7 +32,8 @@
     text-align: center;
     color: var(--333333);
     @include mobile {
-        margin-bottom: 0;
+        margin-bottom: 8px;
+
         font-size: 14px;
         line-height: 186%;
     }
@@ -62,6 +63,11 @@
         color: var(--333333) !important;
     }
 }
+.swiper.mySwiper.swiper-initialized.swiper-horizontal.swiper-android.swiper-backface-hidden.swiper-navigation-disabled {
+    @include mobile {
+        padding-bottom: 30px;
+    }
+}
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -70,7 +76,12 @@
     border-radius: 100%;
     background-color: var(--333333); /* Фон для обычных кругов */
 }
-
+@media (max-width: 320px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+}
 .swiper-pagination-bullet {
     width: 14px !important;
     height: 14px !important;

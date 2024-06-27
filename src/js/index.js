@@ -14,8 +14,6 @@ import "swiper/css/bundle";
 // init Swiper:
 
 var swiper = new Swiper(".mySwiper", {
-  // mousewheel: true,
-
   slidesPerView: 1, // Отображает 1 слайд одновременно
   slidesPerGroup: 1, // Переключает по 1 слайду за раз
   loop: true, // Позволяет бесконечную прокрутку
@@ -24,19 +22,32 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  breakpoints: {
-    320: {
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: null,
-        prevEl: null,
-      },
-    },
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    enabled: false, // Отключаем пагинацию по умолчанию для больших экранов
   },
 });
+
+// Функция для обновления конфигурации Swiper при изменении размера экрана
+function updateSwiper() {
+  if (window.innerWidth < 321) {
+    swiper.pagination.enable();
+    swiper.navigation.disable();
+  } else {
+    swiper.pagination.disable();
+    swiper.navigation.enable();
+  }
+  swiper.update(); // Обновляем Swiper после изменения конфигурации
+}
+
+// Изначальная проверка при загрузке страницы
+updateSwiper();
+
+// Обработчик события resize
+window.addEventListener("resize", updateSwiper);
 
 // Мобильная навигация
 import mobileNav from "./modules/mobile-nav.js";
