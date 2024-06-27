@@ -88,5 +88,6 @@
 	display: none;
 	@include mobile {
 		display: block;
+		justify-self: end;
 	}
 }
